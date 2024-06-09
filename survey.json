@@ -1,0 +1,48 @@
+{
+  "title": "Encuesta Survey Project",
+  "pages": [
+    {
+      "name": "page1",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "gender",
+          "title": "Indica tu género",
+          "choices": ["Hombre", "Mujer", "No-binario", "Prefiero no contestar"]
+        }
+      ]
+    },
+    {
+      "name": "page2",
+      "elements": [
+        {
+          "type": "text",
+          "name": "age",
+          "title": "Edad",
+          "inputType": "number"
+        }
+      ]
+    },
+    {
+      "name": "page3",
+      "elements": [
+        {
+          "type": "html",
+          "name": "image",
+          "html": "<div class='survey-image-container'><img src='images/pepsi-vs-cocaCola.jpeg' alt='Pepsi vs CocaCola' class='survey-image'></div>"
+        }
+      ]
+    },
+    {
+      "name": "page4",
+      "elements": [
+        {
+          "type": "radiogroup",
+          "name": "preference",
+          "title": "¿Prefieres la Pepsi o la Cocacola?",
+          "choices": ["Pepsi", "CocaCola"]
+        }
+      ]
+    }
+  ]
+}
